@@ -1,0 +1,24 @@
+{
+  "name": "rutek/swoole-polyfill",
+  "description": "Polyfill for basic Swoole methods which allows you to create scripts which will run both with and without Swoole",
+  "license": "GPL-3.0",
+  "autoload": {
+    "psr-4": {
+      "Swoole\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rutek\\SwoolePolyfillTests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  },
+  "suggest": {
+    "ext-swoole": "Allows for async processing using this application"
+  }
+}
