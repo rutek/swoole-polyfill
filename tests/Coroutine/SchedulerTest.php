@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rutek\SwoolePolyfillTests;
+namespace Rutek\SwoolePolyfillTests\Coroutine;
 
 use PHPUnit\Framework\TestCase;
 use Swoole\Coroutine\Scheduler;
